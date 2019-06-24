@@ -1,4 +1,4 @@
-![RebellionOS](hhtps://github.com/betallionos/manifest/raw/pie/logo.png)
+![RebellionOS](https://github.com/betallionos/manifest/raw/pie/logo.png)
 
 # RebellionOS #
 
