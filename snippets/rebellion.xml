@@ -4,6 +4,10 @@
   <remote name="rebellion"
           fetch="https://github.com/RebellionOS"
           revision="pie" />
+  
+  <remote name="rebellion-devices"
+          fetch="https://github.com/RebellionOS-devices"
+          revision="pie" />
 
   <project path="art" name="art" remote="rebellion" />
 
