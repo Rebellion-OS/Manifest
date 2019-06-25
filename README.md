@@ -10,7 +10,7 @@
 repo init -u https://github.com/RebellionOS/manifest -b pie
 
 # Sync
-repo sync -c -f --fore-sync --np-clone -jx
+repo sync -c -f --force-sync --no-clone -jx
 ```
 
 ### Build ###
