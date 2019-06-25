@@ -1,14 +1,16 @@
-# LotusOS #
+![RebellionOS](hhtps://github.com/betallionos/manifest/raw/pie/logo.png)
+
+# RebellionOS #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/LotusOS/platform_manifest -b pie
+repo init -u https://github.com/RebellionOS/manifest -b pie
 
 # Sync
-repo sync -jx
+repo sync -c -f --fore-sync --np-clone -jx
 ```
 
 ### Build ###
@@ -19,7 +21,7 @@ repo sync -jx
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch lotus_$device-userdebug
+$ lunch rebellion_$device-userdebug
 
 # Build the code
-$ mka bacon -jX
+$ mka carthage -jX

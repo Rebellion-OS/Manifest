@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="rebellion"
+          fetch="https://github.com/RebellionOS"
+          revision="pie" />
+
+  <project path="art" name="art" remote="rebellion" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="rebellion" />
+  <project path="frameworks/base" name="frameworks_base" remote="rebellion" />
+  <project path="frameworks/native" name="frameworks_native" remote="rebellion" />
+  <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rebellion" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="rebellion" />
+  <project path="frameworks/rebellion" name="frameworks_rebellion" remote="rebellion" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="rebellion" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rebellion" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="rebellion" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="rebellion">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
+      <!-- General repos -->
+  <project path="bionic" name="bionic" remote="rebellion" />
+  <project path="build/soong" name="build_soong" remote="rebellion">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bootable/recovery" name="bootable_recovery" remote="rebellion" />
+  <project path="manifest" name="manifest" remote="rebellion" />
+  <project path="vendor/rebellion" name="vendor_rebellion" remote="rebellion" />
+  <project path="vendor/themes" name="vendor_themes" remote="rebellion" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="rebellion" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="rebellion" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="rebellion" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="rebellion" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rebellion" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="rebellion" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="rebellion" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="rebellion" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="rebellion" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="rebellion" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="rebellion" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="rebellion" />
+  <project path="packages/apps/Rebellion" name="packages_apps_Rebellion" remote="rebellion" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="rebellion" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rebellion" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="rebellion" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="rebellion" />
+  <project path="packages/apps/Terminal" name="packages_apps_Terminal" groups="pdk-fs" remote="rebellion" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="rebellion" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="rebellion" />
+  <project path="packages/services/Mms" name="packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="rebellion" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+
+  <!-- System Repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="rebellion" />
+  <project path="system/bt" name="system_bt" remote="rebellion" />
+  <project path="system/extras" name="system_extras" remote="rebellion" />
+  <project path="system/netd" name="system_netd" remote="rebellion" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="rebellion" />
+  <project path="system/vold" name="system_vold" remote="rebellion" />
+
+</manifest>
