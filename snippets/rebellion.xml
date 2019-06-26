@@ -2,10 +2,10 @@
 <manifest>
 
   <remote name="rebellion"
-          fetch="https://github.com/betallionOS"
+          fetch="https://github.com/RebellionOS"
           revision="pie" />
   
-  <remote name="rebellion-devices"
+  <remote name="rebellionos-devices"
           fetch="https://github.com/RebellionOS-devices"
           revision="pie" />
 
