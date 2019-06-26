@@ -76,6 +76,7 @@
   <!-- System Repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="rebellion" />
   <project path="system/bt" name="system_bt" remote="rebellion" />
+  <project path="system/core" name="system_core" remote="rebellion" />
   <project path="system/extras" name="system_extras" remote="rebellion" />
   <project path="system/netd" name="system_netd" remote="rebellion" />
   <project path="system/sepolicy" name="system_sepolicy" remote="rebellion" />
