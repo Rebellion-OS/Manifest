@@ -5,7 +5,7 @@
           fetch="https://github.com/RebellionOS"
           revision="pie" />
   
-  <remote name="rebellionos-devices"
+  <remote name="RebellionOS-Devices"
           fetch="https://github.com/RebellionOS-devices"
           revision="pie" />
 
