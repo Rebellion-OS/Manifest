@@ -25,3 +25,24 @@ $ lunch rebellion_$device-userdebug
 
 # Build the code
 $ mka carthage -jX
+
+### Credits ###
+
+- PixelExperience (AOSP Base Done by @jhenique and team)
+- Evolution X (Customization Base Done by Evolution X)
+- COSP
+- LineageOS
+- AICP
+- AOKP
+- BootleggersROM
+- AospExtended
+- GZOSP
+- AOSZP
+- Havoc OS
+- Arrow OS
+- AOSCP
+- DescendantOS
+- MSM-Xtended
+- NitogenOS
+- CarbonROM
+- ValidusOS
