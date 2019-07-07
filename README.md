@@ -4,8 +4,7 @@
 
 ### Sync ###
 
-```bash
-
+```
 # Initialize local repository
 repo init -u https://github.com/RebellionOS/manifest -b pie
 
@@ -25,6 +24,7 @@ $ lunch rebellion_$device-userdebug
 
 # Build the code
 $ mka carthage -jX
+```
 
 ### Credits ###
 
