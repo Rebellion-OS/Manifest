@@ -4,25 +4,31 @@
 
 ### Sync ###
 
-```
-# Initialize local repository
-repo init -u https://github.com/RebellionOS/manifest -b pie
 
-# Sync
+#### Initialize local repository
+```
+repo init -u https://github.com/RebellionOS/manifest -b pie
+```
+
+#### Sync
+```
 repo sync -c -f --force-sync --no-clone -jx
 ```
 
 ### Build ###
 
-```bash
-
-# Set up environment
+#### Set up environment
+```
 $ . build/envsetup.sh
+```
 
-# Choose a target
+#### Choose a target
+```
 $ lunch rebellion_$device-userdebug
+```
 
-# Build the code
+#### Build the code
+```
 $ mka carthage -jX
 ```
 
@@ -30,6 +36,7 @@ $ mka carthage -jX
 
 - PixelExperience (AOSP Base Done by @jhenique and team)
 - Evolution X (Customization Base Done by Evolution X)
+- LegionOS
 - COSP
 - LineageOS
 - AICP
