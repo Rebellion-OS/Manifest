@@ -37,6 +37,7 @@ $ mka carthage -jX
 - PixelExperience (AOSP Base Done by @jhenique and team)
 - Evolution X (Customization Base Done by Evolution X)
 - LegionOS
+- RevengeOS
 - COSP
 - LineageOS
 - AICP
