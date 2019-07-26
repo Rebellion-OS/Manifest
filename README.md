@@ -1,6 +1,6 @@
 ![RebellionOS](https://github.com/betallionos/manifest/raw/pie/logo.png)
 
-# RebellionOS #
+# RebellionOS    [![Download RebellionOS](https://img.shields.io/sourceforge/dt/rebellionos.svg)](https://sourceforge.net/projects/rebellionos/files/latest/download)
 
 ### Sync ###
 
