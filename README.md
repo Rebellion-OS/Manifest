@@ -7,7 +7,7 @@
 
 #### Initialize local repository
 ```
-repo init -u https://github.com/RebellionOS/manifest -b pie
+repo init -u https://github.com/Rebellion-OS/manifest -b pie
 ```
 
 #### Sync
