@@ -1,4 +1,4 @@
-![RebellionOS](https://github.com/betallionos/manifest/raw/pie/logo.png)
+![RebellionOS](https://github.com/betallion-os/manifest/raw/pie/logo.png)
 
 # RebellionOS    [![Download RebellionOS](https://img.shields.io/sourceforge/dt/rebellionos.svg)](https://sourceforge.net/projects/rebellionos/files/latest/download)
 
@@ -35,7 +35,6 @@ $ mka carthage -jX
 ### Credits ###
 
 - PixelExperience (AOSP Base Done by @jhenique and team)
-- Evolution X (Customization Base Done by Evolution X)
 - LegionOS
 - RevengeOS
 - COSP
